@@ -18,11 +18,6 @@
                 <form method="POST" action="kegiatan_pro_add.php">
                 <table>
                     <tr>
-                        <td>ID</td>  
-                        <td>&nbsp;&nbsp;&nbsp;</td>                        
-                        <td><input type="number" name="id" class="form-control" required></td>
-                    </tr>
-                    <tr>
                         <td>Tanggal</td>  
                         <td>&nbsp;&nbsp;&nbsp;</td>                        
                         <td><input type="date" name="tanggal" class="form-control" required></td>

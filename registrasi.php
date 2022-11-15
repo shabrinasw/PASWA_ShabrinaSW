@@ -15,17 +15,16 @@
     <!-- Custom styles for this template-->
     <link href="asset/css/sb-admin-2.min.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-primary">
+<body style="background-image: url(' asset/img/bg.jpg');"> 
     <div class="container">
-        <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card o-hidden border-0 shadow-lg my-3">
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-12">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">PENDAFTARAN PASWA</h1>
+                                <h1 class="h4 text-gray-900 mb-4">PENDAFTARAN PASWA 2022</h1>
                             </div>
                             <form method="post" action="simpan_pendaftaran.php" enctype="multipart/form-data">
                                 <div class="form-group row">
@@ -128,10 +127,10 @@
                             </form>
                             <hr>
                             <div class="text-center">
-                                <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                <a class="small" href="forgot-password.html">Lupa Password?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                <a class="small" href="login.html">Belum Punya Akun? Login!</a>
                             </div>
                         </div>
                     </div>

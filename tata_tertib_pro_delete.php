@@ -2,11 +2,13 @@
 if(!isset($_SESSION['valid'])) {
 	header('Location: login.php');
 }
+
 include_once("connection.php");
-$nim = $_GET['id'];
+$id = $_GET['id'];
 	
 $result=mysqli_query($mysqli, "DELETE FROM tab_tata_tertib WHERE id= '$id' ");
 echo "<script language=javascript>
-			alert('Hapus Berhasil');
-			window.location='kegiatan.php';
+			alert('Delete Berhasil');
+			window.location='tata_tertib.php';
 			</script>";
+?>
